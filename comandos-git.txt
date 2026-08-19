@@ -15,3 +15,14 @@ git checkout - Muda para outra branch
 
 # Envio de Código
 git push origin <branch> - Envia a branch para o repositório remoto
+
+              === RESOLUÇÃO DE CONFLITOS ===
+
+# Comando de Merge
+git merge <branch> - Faz o merge de uma branch para a branch atual (pode gerar conflitos)
+
+# Passos para Resolver Conflitos
+1. Editar o arquivo afetado
+2. Remover as marcações de conflito (<<<<<<<, =======, >>>>>>>)
+3. git add - Salva as alterações resolvidas na área de staging
+4. git commit - Finaliza a resolução e conclui o merge
